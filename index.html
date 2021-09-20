@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="x-apple-disable-message-reformatting">
+	<title></title>
+	<style>
+		body{
+			margin:0;
+			padding:0;
+
+		}
+		.tb-container{
+			width:100%;border-collapse:collapse;border:0;border-spacing:0;
+		}
+		.tb-content{
+			width:602px;
+			border-collapse:collapse;
+			border:1px solid #cccccc;
+			border-spacing:0;
+			text-align:left;
+			background-color: #fff;
+		}
+		.bg-head-grad{
+			padding:40px 15px 30px 15px;
+		}
+		.bg-head-grad label{
+			color: #fff;
+			font-size: 40px;
+			font-weight: bold;
+		}
+		.bg-head-grad img {
+			height:auto;
+			display:block;
+		}
+		.bg-foot-grad {
+			padding:30px;
+		}
+		.bg-head-grad, .bg-foot-grad{
+			background-color: #00e7ff; /* For browsers that do not support gradients */
+			background-image: linear-gradient(to right, #0059ff , #00e7ff);
+		}
+		.td-text-1{
+			padding:36px 30px 42px 30px;
+		}
+		.tb-text-1-content{
+			width:100%;
+			border-collapse:collapse;
+			border:0;
+			border-spacing:0; 
+
+		}
+		.td-text-1-content{
+			padding:0 0 10px 0;
+			color:#153643;
+		}
+		.td-text-1-content h1 {
+			font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;
+		}
+		.td-text-1-content p {
+			margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;
+		}
+		.tb-in-content {
+			width:100%;
+			border-collapse:
+			collapse;border:0;
+			border-spacing:0;
+
+			font-size:16px;
+			font-family:Arial,sans-serif;
+		}
+		.tr-with-border {
+			border-top: 1px solid #d1d1d1; 
+			border-bottom: 1px solid #d1d1d1; 
+		}
+		.tr-with-border td{
+			padding: 5px 15px 5px 15px;
+		}
+		.tr-with-border .td-row-title {
+			background-color: #eee;
+			/*padding: 5px 0 5px 0;*/
+			font-size: 14px;
+		}
+		.td-copyright {
+			padding:0;
+			width:50%;
+		}
+		.td-copyright p {
+			margin:0;
+			font-size:14px;
+			line-height:16px;
+			font-family:Arial,sans-serif;
+			color:#ffffff;
+		}
+		.tb-social {
+			border-collapse:collapse;
+			border:0;
+			border-spacing:0;
+		}
+		.tb-social td {
+			padding:0 0 0 10px;width:38px;
+		}
+		.tb-social img {
+			height:auto;
+			display:block;
+			border:0;
+		}
+		table, td, div, h1, p {font-family: Arial, sans-serif;}
+	</style>
+</head>
+<body>
+	<table class="tb-container" role="presentation">
+		<tr>
+			<td align="center" style="padding:0;">
+				<table class="tb-content" role="presentation">
+					<tr>
+						<td class="bg-head-grad" align="left">
+							<!-- logo image -->
+							<!-- <img src="https://ingsilver.co.id/assets/upload/image/logo.png" alt="" width="300" style="height:auto;display:block;" /> -->
+							
+							<table>
+								<tr>
+									<td>
+										<img src="https://adminpoin.ingsilver.co.id/assets/img/logo-app-round.png" alt="" width="80"/>
+									</td>
+									<td>
+										<label>Point IS</label>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="td-text-1" style="">
+							<table class="tb-text-1-content" role="presentation">
+								<tr>
+									<td class="td-text-1-content">
+										<!-- Email title -->
+										<h1 >Security Code</h1>
+										<p>
+										Hi '.$name.',<br>
+										You are requesting a security code to create a new password. 
+										</p>
+										<!-- <p style="margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;"><a href="http://www.example.com" style="color:#ee4c50;text-decoration:underline;">In tempus felis blandit</a></p> -->
+									</td>
+								</tr>
+								<tr >
+									<td style="padding: 10px 0 10px 0;">
+								    	<table class="tb-in-content" align="left" width="100%">
+											<tr class="tr-with-border">
+												<td class="td-row-title" width="150px">
+													<b>Device</b>
+												</td>
+												
+												<td>
+													<b>'.$device.'</b>
+												</td>
+											</tr>
+											<tr class="tr-with-border">
+												<td class="td-row-title" width="150px">
+													<b>Security Code</b>
+												</td>
+												
+												<td>
+													<b>'.$secCode.'</b>
+												</td>
+											</tr>
+											<tr class="tr-with-border">
+												<td class="td-row-title" width="150px"><b>Date</b></td>
+												<td>
+													<b>'.$dateNow.'</b>
+												</td>
+											</tr>
+
+										</table>										
+									</td>
+								</tr>
+
+								<tr>
+									<td class="td-text-1-content" style="padding-top: 10px;">
+										<p>If you are not doing that, please secure your account by changing the password.</p>
+										<p>Have a  question?</p>
+										<p>Contact us by email (<a href="mailto:perakperhiasan@gmail.com" target="_blank">perakperhiasan@gmail.com</a>) or WA (<a href="https://api.whatsapp.com/send/?phone=6281380716125&text=Saya+memiliki+pertanyaan+mengenai+Aplikasi+IS+Point,+Apakah+bisa+dibantu%3F&app_absent=0" target="_blank">+6281380716125</a>)</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="bg-foot-grad">
+							<table class="tb-in-content" role="presentation">
+								<tr>
+									<td class="td-copyright" style="" align="left">
+										<p>&reg; PT. IS Ing Silver 2021</p>
+									</td>
+									<td class="td-copyright" align="right">
+										<table class="tb-social" role="presentation" style="">
+											<tr>
+												<td>
+													<a href="https://twitter.com/perhiasan_perak"><img src="https://adminpoin.ingsilver.co.id/assets/img/tw_icon_1.png" alt="Twitter" width="38"/></a>
+												</td>
+												<td>
+													<a href="https://www.instagram.com/pusatgrosirperhiasanperak1/"><img src="https://adminpoin.ingsilver.co.id/assets/img/ig_icon_4.png" alt="Instagram" width="38"/></a>
+												</td>
+												<td>
+													<a href="https://www.facebook.com/pusatgrosirperhiasanperak925"><img src="https://adminpoin.ingsilver.co.id/assets/img/fb_icon_1.png" alt="Facebook" width="38"/></a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
